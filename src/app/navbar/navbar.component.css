@@ -1,17 +1,12 @@
 #logo {
-    height: 150px;
-    margin-left: 15px;
+    height: 200px;
     /* Adjust height as needed */
     position: absolute;
-    bottom: -100px;
-    /* Half of the logo's height to hang off the bottom */
-   
-    /* Center the logo */
+    bottom: -130px;
 
-    /* Center align the logo horizontally */
     z-index: 15;
-    /* Higher than the navbar to stay on top of the content below */
-    content: url('../../assets/Logo/pet_logo.jpeg');
+    content: url('../../assets/Logo/file.png');
+    left: -40px;
 }
 
 .logo-container {
@@ -22,7 +17,7 @@
 
 .contact-btn {
     margin: 10px;
-    background-color: #f9b234;
+    background-color: #38b6ff;
     color: white;
 }
 

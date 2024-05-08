@@ -14,5 +14,7 @@
 }
 
 .logo{
-    content: url('../../assets/Logo/pet_logo.jpeg');
+    content: url('../../assets/Logo/file.png');
+    width: 100%;
+    height: 100%;
 }
