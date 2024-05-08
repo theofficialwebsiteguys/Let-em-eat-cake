@@ -11,7 +11,7 @@
     /* Center align the logo horizontally */
     z-index: 15;
     /* Higher than the navbar to stay on top of the content below */
-    content: url('../../assets/Logo/logo.jpg');
+    content: url('../../assets/Logo/pet_logo.jpeg');
 }
 
 .logo-container {
@@ -22,7 +22,8 @@
 
 .contact-btn {
     margin: 10px;
-    background-color: #3b6f53;
+    background-color: #f9b234;
+    color: white;
 }
 
 .navbar-expand-lg .navbar-nav {
