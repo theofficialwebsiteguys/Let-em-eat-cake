@@ -1,55 +1,43 @@
 {
-  "hash": "bc996ae1",
-  "configHash": "b3e5f6f5",
+  "hash": "cf741671",
+  "configHash": "80a7e997",
   "lockfileHash": "d2e9c3bf",
-  "browserHash": "e1b36107",
+  "browserHash": "b02d1479",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "9984a9cc",
+      "fileHash": "6975b303",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "316b3bfe",
+      "fileHash": "cc0f1b9f",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "629d261a",
+      "fileHash": "8bd16c12",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "ec09a58a",
+      "fileHash": "988a57fb",
       "needsInterop": false
-    },
-    "@ng-bootstrap/ng-bootstrap": {
-      "src": "../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap.mjs",
-      "file": "@ng-bootstrap_ng-bootstrap.js",
-      "fileHash": "0934e792",
-      "needsInterop": false
-    },
-    "owl.carousel": {
-      "src": "../../../../../node_modules/owl.carousel/dist/owl.carousel.js",
-      "file": "owl__carousel.js",
-      "fileHash": "0c6e7366",
-      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-HIA62RRX": {
-      "file": "chunk-HIA62RRX.js"
+    "chunk-EELNKDCN": {
+      "file": "chunk-EELNKDCN.js"
     },
-    "chunk-VR7XAWCT": {
-      "file": "chunk-VR7XAWCT.js"
+    "chunk-LQX65BWK": {
+      "file": "chunk-LQX65BWK.js"
     },
-    "chunk-ERVMBA57": {
-      "file": "chunk-ERVMBA57.js"
+    "chunk-7XNSWP76": {
+      "file": "chunk-7XNSWP76.js"
     }
   }
 }
