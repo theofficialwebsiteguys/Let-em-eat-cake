@@ -1,35 +1,44 @@
 <!-- hero.component.html -->
 <div class="hero-container position-relative">
-    <div class="overlay position-absolute top-0 end-0 bottom-0 start-0"></div>
-    <div class="container position-relative d-flex justify-content-center align-items-center h-100">
-      <h1 class="text-center text-white">Pet Sitting</h1>
-    </div>
+  <div class="overlay position-absolute top-0 end-0 bottom-0 start-0"></div>
+  <div class="container position-relative d-flex justify-content-center align-items-center h-100">
+    <h1 class="text-center text-white">Pet Sitting</h1>
   </div>
-  
-<div class="service-container">
-  <div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Visits and Overnights</h1>
-      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-      <button class="btn btn-primary btn-lg" type="button">Example button</button>
-    </div>
-  </div>
+</div>
 
-  <div class="row align-items-md-stretch">
-    <div class="col-md-6">
-      <div class="h-100 p-5 text-bg-dark rounded-3">
-        <h2>Dog Walking</h2>
-        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-        <button class="btn btn-outline-light" type="button">Example button</button>
+<div class="service-container">
+<!-- Visits and Overnights Section -->
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../../assets/sleep-dog.jpg" class="img-fluid" alt="Visits and Overnights">
       </div>
-    </div>
-    <div class="col-md-6">
-      <div class="h-100 p-5 bg-light border rounded-3">
-        <h2>Transportation</h2>
-        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-        <button class="btn btn-outline-secondary" type="button">Example button</button>
+      <div class="col-md-6 m-auto  text-center">
+        <h1 class="display-5 fw-bold">Visits and Overnights</h1>
+        <p class="fs-4">We offer personalized dog-walking services to keep your furry friends healthy and happy. Whether your pet prefers leisurely strolls or energetic jaunts, we customize each walk to suit their pace and personality. Our walks not only help your dog expend pent-up energy but also provide essential mental stimulation and social interaction. Trust us to give your dog the exercise and attention they deserve!</p>
       </div>
     </div>
   </div>
 </div>
- 
+
+<!-- Combined Dog Walking and Transportation Section on one row -->
+<div class="row align-items-md-stretch">
+  <!-- Dog Walking Section -->
+  <div class="col-md-6">
+    <div class="h-100 p-5 green rounded-3 text-center">
+      <h2 class="display-5 fw-bold">Dog Walking</h2>
+      <p class="fs-5">We understand that pets are most comfortable in their own homes. That's why Annie's Petsitting provides both occasional visits and overnight care. During visits, we feed, play, and attend to your pet's needs, ensuring they feel loved and cared for. For those who need extra attention or suffer from separation anxiety, our overnight service offers the reassurance of having a dedicated sitter by their side through the night, ensuring they are not alone and maintaining their regular routine.</p>
+      <img src="../../assets/dog-walking.JPG" class="img-fluid mt-3" alt="Dog Walking">
+    </div>
+  </div>
+
+  <!-- Transportation Section -->
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-light border rounded-3 text-center">
+      <h2 class="display-5 fw-bold">Transportation</h2>
+      <p class="fs-5">Need help getting your pet to the vet, groomer, or a playdate? Look no further! Annie's Petsitting offers dependable transportation services for most animals. Our transport is equipped with secure carriers and safety features to ensure your pet’s safety and comfort on the road. Whether it’s a routine appointment or a special outing, we provide a stress-free travel experience for both you and your pet.</p>
+      <img src="../../assets/IMG_6645.JPG" class="img-fluid mt-3" alt="Transportation">
+    </div>
+  </div>
+</div>
