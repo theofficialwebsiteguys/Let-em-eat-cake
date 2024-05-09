@@ -1,74 +1,79 @@
 /* hero.component.css */
 .hero-container {
-    position: relative;
-    background-image: url('../../assets/IMG_6651.JPG');
-    background-size: cover;
-    background-position: center;
-    height: 200px; /* Adjust based on your preference */
+  position: relative;
+  background-image: url('../../assets/IMG_6651.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  /* Adjust based on your preference */
+}
+
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  /* Dark overlay; adjust opacity as needed */
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.container {
+  z-index: 2;
+}
+
+/* Optional: If you want the title to stand out more */
+h1 {
+  font-weight: bold;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+.featurette {
+  padding: 100px;
+}
+
+.truck-image {
+  width: auto;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/cats.JPG');
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+.text {
+  margin: auto;
+}
+
+
+@media (max-width: 1440px) {
+  .featurette {
+    padding: 50px;
   }
-  
-  .overlay {
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay; adjust opacity as needed */
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-  
-  .container {
-    z-index: 2;
-  }
-  
-  /* Optional: If you want the title to stand out more */
-  h1 {
-    font-weight: bold;
-  }
-  
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+@media (max-width: 1024px) {
+  .featurette {
+    display: block;
   }
 
-  .featurette{
-    padding: 100px;
-  }
-
-  .truck-image {
+  .text {
     width: auto;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-image: url('../../assets/cats.JPG');
-  }
-  
-  /* Thin out the marketing headings */
-  /* rtl:begin:remove */
-  .featurette-heading {
-    letter-spacing: -.05rem;
   }
 
-  .text{
-    margin: auto;
+  .image {
+    width: auto;
+    text-align: center;
   }
-
-  
-  @media (max-width: 1440px) {
-    .featurette{
-      padding: 50px;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    .featurette{
-      display: block;
-    }
-    
-    .text{
-      width: auto;
-    }
-
-    .image{
-      width: auto;
-      text-align: center;
-    }
-  }
+}
 
 @media (max-width: 525px) {
   .truck-image {
@@ -78,66 +83,72 @@
 }
 
 
- .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
 
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-
-
-      .service-container{
-        margin: 5%;
-      }
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
 
 
+.service-container {
+  margin: 5%;
+}
 
 
 
-.green{
-  background-color: #C3B994;
+
+
+.green {
+  background-color: bisque;
+}
+
+#logo {
+  height: 100%;
+  content: url('../../assets/Logo/file.png');
+  margin: 20px;
 }

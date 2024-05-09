@@ -2,22 +2,21 @@
     <div class="container-fluid">
         <!-- Navbar toggler button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
             <ul class="navbar-nav m-auto me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" (click)="route('')">Home</a>
+                    <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" (click)="route('about')">Pet Sitting</a>
+                    <a class="nav-link" routerLink="/about" routerLinkActive="active">Pet Sitting</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" (click)="route('gallery')">Certifications</a>
+                    <a class="nav-link" routerLink="/gallery" routerLinkActive="active">Certifications</a>
                 </li>
             </ul>
         </div>
-        <!-- <button type="button" class="btn contact-btn">Contact</button> -->
     </div>
 </nav>
