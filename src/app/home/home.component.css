@@ -65,6 +65,7 @@ a.btn-phone {
 
 @media (max-width: 480px) {
   #logo{
+    max-height: 200px;
     width: 350px;
   }
 }
