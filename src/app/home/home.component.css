@@ -9,10 +9,12 @@
 } */
 
 .hero-content {
-  position: relative; /* Changed from absolute to better control layout */
+  position: relative;
+  /* Changed from absolute to better control layout */
   width: 100%;
   height: 90vh;
-  background-image: url('../../assets/dog.jpg'); /* Update with the correct path */
+  background-image: url('../../assets/dog.jpg');
+  /* Update with the correct path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +103,8 @@
 }
 
 .hero-content * {
-  position: relative; /* This raises the z-index context of all child elements */
+  position: relative;
+  /* This raises the z-index context of all child elements */
   z-index: 2;
 }
 
@@ -136,6 +139,14 @@
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+}
+
+button.btn.btn-primary.btn-lg.px-4.gap-3.quotes-btn:hover {
+  background-color: rgb(196, 202, 255);
+}
+
+a.btn-phone {
+  text-decoration: none;
 }
 
 /* rtl:end:remove */
