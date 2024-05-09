@@ -11,9 +11,7 @@
 
 .navbar-nav .nav-link {
     color: white !important;
-    /* Sets text color to white */
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-    /* Adds a dark shadow for text readability */
     cursor: pointer;
 }
 
@@ -21,13 +19,10 @@
     border-bottom: solid;
 }
 
-/* Ensure the active link is also styled appropriately */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:focus {
     color: white !important;
-    /* Keeps the active link white */
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
-    /* Slightly stronger shadow for active or focused link */
 }
 
 .nav-link.active {

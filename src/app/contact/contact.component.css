@@ -20,26 +20,3 @@
     color: #FFFFFF;
 }
 
-.btn {
-    width: 25%;
-    background-color: #37b9b5;
-    font-weight: bolder;
-    font-size: x-large;
-    height: 60px;
-    border: none;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-@media (max-width: 1300px) {
-    .btn {
-        font-size: large;
-        width: fit-content;
-    }
-}
-
-@media (max-width: 425px) {
-    #text {
-        font-size: 30px;
-    }
-}

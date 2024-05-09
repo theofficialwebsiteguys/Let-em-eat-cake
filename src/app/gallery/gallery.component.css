@@ -8,7 +8,6 @@
   /* Adjust based on your preference */
 }
 
-
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   /* Dark overlay; adjust opacity as needed */
@@ -19,11 +18,6 @@
 
 .container {
   z-index: 2;
-}
-
-/* Optional: If you want the title to stand out more */
-h1 {
-  font-weight: bold;
 }
 
 .gallery {
@@ -40,17 +34,6 @@ h1 {
   height: 100%;
   content: url('../../assets/Logo/file.png');
   margin: 20px;
-}
-
-.row {
-  display: flex; /* Align items in a row */
-  justify-content: space-around; /* Distribute space evenly around the items */
-  align-items: center; /* Center items vertically */
-}
-
-.item {
-  font-size: 28px;
-  margin: 0 10px; /* Add horizontal margin for spacing */
 }
 
 .badges{

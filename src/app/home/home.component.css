@@ -1,20 +1,8 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-/* body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: rgb(var(--bs-tertiary-color-rgb));
-} */
-
 .hero-content {
   position: relative;
-  /* Changed from absolute to better control layout */
   width: 100%;
   height: 90vh;
   background-image: url('../../assets/dog.jpg');
-  /* Update with the correct path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,58 +25,6 @@
   font-weight: bold;
 }
 
-
-
-/* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-
-/* Carousel base class */
-/* .carousel {
-  margin-bottom: 4rem;
-} */
-
-.carousel-inner {
-  height: 550px;
-}
-
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 500px;
-  /* Adjust based on your desired carousel height */
-  background-size: cover;
-  background-position: center;
-}
-
-.carousel-item:nth-child(1) {
-  background-image: url('../../assets/dog.jpg');
-  height: 100%;
-}
-
-.carousel-item:nth-child(2) {
-  background-image: url('../../assets/IMG_6651.JPG');
-  height: 100%;
-}
-
-.carousel-item:nth-child(3) {
-  background-image: url('../../assets/puppy\ weddign.png');
-  height: 100%;
-}
-
-.carousel-control-prev {
-  z-index: 100;
-}
-
-.carousel-control-next {
-  z-index: 100;
-}
-
-/* Add overlay */
 .hero-content::before {
   content: "";
   position: absolute;
@@ -97,9 +33,7 @@
   bottom: 0;
   left: 0;
   background: rgba(39, 39, 39, 0.6);
-  /* Black with 50% transparency */
   z-index: 2;
-  /* Ensure it's above the background image but below the content */
 }
 
 .hero-content * {
@@ -108,68 +42,6 @@
   z-index: 2;
 }
 
-
-/* MARKETING CONTENT
-  -------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-/* rtl:end:ignore */
-
-
-/* Featurettes
-  ------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0;
-  /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
-.featurette-heading {
-  letter-spacing: -.05rem;
-}
-
-button.btn.btn-primary.btn-lg.px-4.gap-3.quotes-btn:hover {
-  background-color: rgb(196, 202, 255);
-}
-
 a.btn-phone {
   text-decoration: none;
-}
-
-/* rtl:end:remove */
-
-/* RESPONSIVE CSS
-  -------------------------------------------------- */
-
-@media (min-width: 40em) {
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
 }
