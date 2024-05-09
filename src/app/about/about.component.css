@@ -33,3 +33,9 @@
   content: url('../../assets/Logo/file.png');
   margin: 20px;
 }
+
+@media (max-width: 644px) {
+  .desc{
+    font-size: 18px !important;
+  }
+}

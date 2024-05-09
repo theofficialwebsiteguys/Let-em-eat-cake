@@ -35,3 +35,14 @@
 .emailLink:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+/* Responsive settings for the features */
+@media (max-width: 768px) {
+    .contact{
+        width: 100%;
+    }
+
+    .fb{
+        margin: auto;
+    }
+  }

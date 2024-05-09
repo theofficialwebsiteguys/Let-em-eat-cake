@@ -4,13 +4,11 @@
   background-image: url('../../assets/gallery/3.jpg');
   background-size: cover;
   background-position-y: 25%;
-  height: 400px;
-  /* Adjust based on your preference */
+  height: 400px; /* Adjust based on your preference */
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.5);
-  /* Dark overlay; adjust opacity as needed */
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay; adjust opacity as needed */
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -36,15 +34,44 @@
   margin: 20px;
 }
 
-.badges{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
+.badges {
+  padding-left: 5%; /* Use padding for spacing inside container */
+  padding-right: 5%;
 }
 
-.badge{
+.badge {
   background-color: #a7b5a5;
-  width: 400px;
   padding: 20px;
   font-size: 20px;
+  margin-bottom: 20px; /* Adds space between badges when stacked */
+  
+  /* Ensure text wrapping */
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* More robust handling of word breaking */
+  hyphens: auto; /* Optional: adds hyphens for better text flow on some browsers */
+  white-space: normal; /* Overrides any other white-space settings that might prevent wrapping */
+  /* Set a maximum width to better manage the layout */
+  max-width: 400px; /* Ensures the badge doesn't exceed the parent's width */
+}
+
+@media (min-width: 992px) {
+  /* Adjustments for tablets and below */
+  .badge{
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Adjustments for tablets and below */
+  .badges .col-lg-4, .badges .col-md-6 {
+    flex: 0 0 100%; /* Each column takes full width */
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 644px) {
+  .badge {
+    padding: 15px;
+    font-size: 16px;
+  }
 }
