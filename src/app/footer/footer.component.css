@@ -20,10 +20,41 @@
 }
 
 .footer-background {
-    background-color: bisque;
+    background-color: #a7b5a5;
+    color: white;
 }
 
 .my-4 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+
+.contact-info h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 5px; /* Reduce space between items */
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.bi {
+    font-size: 32px; /* Adjust icon size */
+}
+
+.emailLink {
+    color: white; /* Email link color */
+    text-decoration: none; /* No underline */
+}
+
+.emailLink:hover {
+    text-decoration: underline; /* Underline on hover */
 }

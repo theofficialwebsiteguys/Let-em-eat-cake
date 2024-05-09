@@ -8,6 +8,7 @@
   /* Adjust based on your preference */
 }
 
+
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   /* Dark overlay; adjust opacity as needed */
@@ -26,7 +27,9 @@ h1 {
 }
 
 .gallery {
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
 .image {
@@ -37,4 +40,28 @@ h1 {
   height: 100%;
   content: url('../../assets/Logo/file.png');
   margin: 20px;
+}
+
+.row {
+  display: flex; /* Align items in a row */
+  justify-content: space-around; /* Distribute space evenly around the items */
+  align-items: center; /* Center items vertically */
+}
+
+.item {
+  font-size: 28px;
+  margin: 0 10px; /* Add horizontal margin for spacing */
+}
+
+.badges{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.badge{
+  background-color: #a7b5a5;
+  width: 400px;
+  padding: 20px;
+  font-size: 20px;
 }
