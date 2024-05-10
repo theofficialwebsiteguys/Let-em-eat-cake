@@ -17,6 +17,10 @@
     height: 100%;
 }
 
+.instagram-facebook{
+    z-index: 9999;
+}
+
 .emailLink,
 .phoneNumber,
 .phoneLink {
@@ -24,7 +28,9 @@
     height: 100%;
     align-items: center;
     text-decoration: none;
+    z-index: 9999;
 }
+
 
 
 
