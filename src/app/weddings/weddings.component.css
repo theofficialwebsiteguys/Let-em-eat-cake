@@ -6,6 +6,11 @@
     background-position-y: 25%;
     height: 400px; /* Adjust based on your preference */
   }
+
+  .logo-container{
+    margin-top: 50px;
+  }
+  
   
   .overlay {
     background: rgba(0, 0, 0, 0.5); /* Dark overlay; adjust opacity as needed */

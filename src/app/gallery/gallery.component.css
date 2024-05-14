@@ -14,6 +14,11 @@
   z-index: 1;
 }
 
+.logo-container{
+  margin-top: 50px;
+}
+
+
 .container {
   z-index: 2;
 }
@@ -31,7 +36,6 @@
 #logo {
   height: 100%;
   content: url('../../assets/Logo/file.png');
-  margin: 20px;
 }
 
 .badges {
@@ -77,24 +81,6 @@
 }
 
 
-@media (max-width: 992px) {
-  .hero-container{
-    padding-top: 75px;
-  }
-}
-
-@media (max-width: 768px) {
-  #logo{
-    width: 450px;
-  }
-}
-
-@media (max-width: 480px) {
-  #logo{
-    max-height: 200px;
-    width: 350px;
-  }
-}
 
 .heading{
   color: #a7b5a5;
