@@ -12,7 +12,6 @@
 #logo {
   max-height: 400px;
   content: url('../../assets/Logo/file.png');
-  margin: 20px;
 }
 
 .quotes-btn {
@@ -51,20 +50,17 @@ a.btn-phone {
   width: auto;   /* Adapts the width to changes in size of the container */
 }
 
+@media (max-width: 1440px) {
+  .hero-content{
+    height: 100vh;
+    padding-top: 50px;
+  }
+}
+
 @media (max-width: 992px) {
-  /* .hero-content{
-    padding-top: 200px;
-  } */
-}
-
-@media (max-width: 768px) {
-  #logo{
-    width: 450px;
+  .hero-content{
+    height: 100vh;
+    padding-top: 100px;
   }
 }
 
-@media (max-width: 480px) {
-  #logo{
-    width: 300px;
-  }
-}
