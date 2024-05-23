@@ -41,7 +41,7 @@
 #logo {
   max-height: 400px;
   content: url('../../assets/Logo/file.png');
-
+  padding: 30px;
 }
 
 @media (max-width: 644px) {

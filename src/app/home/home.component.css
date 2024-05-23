@@ -12,10 +12,11 @@
 #logo {
   max-height: 400px;
   content: url('../../assets/Logo/file.png');
+  padding: 30px;
 }
 
 .quotes-btn {
-  background-color: #38b6ff;
+  background-color: #9BA0BC;
   color: white;
   border: none;
   width: 250px;
