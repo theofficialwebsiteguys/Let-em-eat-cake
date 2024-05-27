@@ -1,13 +1,13 @@
 
 
 .logo {
-    content: url('../../assets/Logo/file.png');
+    content: url('../../assets/Logo/file.avif');
     width: 300px;
     height: 100%;
 }
 
 .footer-background {
-    background-color: #9BA0BC;
+    background-color: #cac7ff;
     color: white;
 }
 

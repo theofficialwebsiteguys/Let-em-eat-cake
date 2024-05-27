@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+
+.font {
+  font-family: 'Radley', serif;
+}
+
 /* hero.component.css */
 .hero-container {
   position: relative;
-  background-image: url('../../assets/IMG_6651.JPG');
+  background-image: url('../../assets/IMG_6651.avif');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -35,12 +42,12 @@
 }
 
 .green {
-  background-color: #a7b5a5;
+  background-color: #cac7ff8f;
 }
 
 #logo {
   max-height: 400px;
-  content: url('../../assets/Logo/file.png');
+  content: url('../../assets/Logo/file.avif');
   padding: 30px;
 }
 
