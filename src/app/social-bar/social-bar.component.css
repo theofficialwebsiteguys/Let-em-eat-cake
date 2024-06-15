@@ -47,9 +47,9 @@
 }
 
 @media (max-width: 554px) {
-    .emailLink{
+    /* .emailLink{
         display: none;
-    }
+    } */
     .split{
         display: none;
     }

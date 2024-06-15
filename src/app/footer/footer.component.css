@@ -1,13 +1,12 @@
 
 
 .logo {
-    content: url('../../assets/Logo/file.avif');
-    width: 300px;
+    content: url('../../assets/Logo/cake-logo.png');
     height: 100%;
 }
 
 .footer-background {
-    background-color: #cac7ff;
+    background-color: #d894ae;
     color: white;
 }
 

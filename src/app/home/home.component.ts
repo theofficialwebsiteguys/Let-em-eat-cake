@@ -1,8 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { FeaturesComponent } from '../features/features.component';
-
 import { ContactComponent } from '../contact/contact.component';
-import { GalleryComponent } from '../gallery/gallery.component';
 
 
 
@@ -12,7 +10,6 @@ import { GalleryComponent } from '../gallery/gallery.component';
   imports: [
     ContactComponent,
     FeaturesComponent,
-    GalleryComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
