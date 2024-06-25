@@ -57,3 +57,24 @@
 }
 
 }
+
+
+
+.feature-icon {
+  height: 400px; /* Adjust as needed for your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon img.feature-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
