@@ -1,8 +1,6 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, ElementRef, NgModule, ViewChild } from '@angular/core';
 import { FeaturesComponent } from '../features/features.component';
 import { ContactComponent } from '../contact/contact.component';
-
-
 
 @Component({
   selector: 'app-home',
@@ -16,5 +14,12 @@ import { ContactComponent } from '../contact/contact.component';
 })
 export class HomeComponent {
 
+  @ViewChild('cakeOrderSection') cakeOrderSection!: ElementRef;
+
+  scrollToSection() {
+    if (this.cakeOrderSection) {
+      this.cakeOrderSection.nativeElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
 }

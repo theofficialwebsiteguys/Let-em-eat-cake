@@ -1,23 +1,28 @@
 <div class="hero-container">
     <div class="hero-images">
-        <img src="assets/gallery/animal-cake.jpg" alt="Image 1" class="first-image" />
-        <img src="assets/gallery/image1.jpeg" alt="Image 2" class="desktop-only" />
-        <img src="assets/gallery/image2.jpeg" alt="Image 3" class="desktop-only" />
+        <img src="assets/gallery/image22.jpeg" alt="Image 1" class="first-image" />
+        <img src="assets/gallery/image30.jpeg" alt="Image 2" class="desktop-only" />
+        <img src="assets/gallery/image33.jpeg" alt="Image 3" class="desktop-only" />
         <div class="overlay"></div>
     </div>
+
     <div class="hero-content text-center text-white">
-        <img src="assets/Logo/cake-logo.png" id="logo" height="350" width="250" alt="">
-        <h1 class="display-5 fw-bold p-3">Cake is the name, creativity is the game!</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Making pretty, fun, cool and weird cakes for all occasions!</p>
-            <!-- <div class="d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-lg px-4 gap-3 quotes-btn">
-                    <a class="btn-phone text-white" href="tel:+15854555577">(585) 455-5577</a>
-                </button>
-            </div> -->
-        </div>
+        <img src="assets/Logo/cake-logo.png" id="logo" alt="Cake Business Logo">
+        <h1 class="hero-title">Cake is the name, <br> creativity is the game!</h1>
+        <p class="hero-subtitle">Pretty, fun, cool, and delicious cakes for every occasion.</p>
+        
+        <button type="button" class="btn btn-lg quotes-btn" (click)="scrollToSection()">
+            Get Your Cake
+        </button>
     </div>
 </div>
 
-<app-contact></app-contact>
-<app-features></app-features>
+<!-- Target Section for Scrolling -->
+    <app-contact></app-contact>
+    <div class="contact-container" #cakeOrderSection id="cake-order-section">
+        <p id="text">Request Your Cake Today!</p>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://form.jotform.com/250067637824158" frameborder="0" style="width:100%; height:90%;"></iframe>
+        </div>
+      </div>
+    <app-features></app-features>
